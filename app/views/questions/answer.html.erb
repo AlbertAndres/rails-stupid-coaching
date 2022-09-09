@@ -1,4 +1,14 @@
-<h1><%= @question %></h1>
-<h1><%= @answer %></h1>
- <%# <a href="/ask">Ask a new question</a> %>
-<%=link_to('Ask a new question', ask_path)  %>
+<div class="title">
+<h1>Stupid Coaching</h1>
+</div>
+<div class="question">
+<h3><%= @question %></h3>
+<p>-You</p>
+</div>
+<div class="Answer">
+<h3><%= @answer%></h3>
+<p>-coach</p>
+</div>
+<div class="link">
+  <%= link_to("Ask a new question", ask_path)%>
+</div>
