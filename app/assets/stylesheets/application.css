@@ -27,9 +27,16 @@
  }
  .Answer {
    margin-left: 40px;
+   margin-right: 250px;
    margin-top: 50px;
    border-left: solid grey;
+   background-color: blanchedalmond;
  }
- .link {
+ .link a{
    margin-left: 40px;
+   text-decoration: none;
  }
+
+ form {
+  margin-right: 250px;
+}
