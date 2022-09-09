@@ -4,8 +4,10 @@ class QuestionsController < ApplicationController
 
   def answer
     @question = params["question"]
-   # if @question.include? ()
-   #@answer =
-   #end
+    if @question.include?("hello")
+       @answer = "I don't care, get dressed and go to work!"
+    elsif @question.include?("shopping")
+      @answer = "Silly question, get dressed and go to work!"
+    end
   end
 end
